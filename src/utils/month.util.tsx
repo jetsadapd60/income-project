@@ -13,6 +13,6 @@ const months: string[] = [
     "ธันวาคม",
   ];
 
-export const Month = (m: number) => {
+export const Month = (m: any) => {
     return months[m];
 }
